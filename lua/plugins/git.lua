@@ -1,0 +1,5 @@
+return {
+  { "tpope/vim-fugitive", cmd = { "Git", "G", "Gbrowse" } },
+  { "tpope/vim-rhubarb",  event = "VeryLazy" },
+  { "lewis6991/gitsigns.nvim", opts = { current_line_blame = true } },
+}
